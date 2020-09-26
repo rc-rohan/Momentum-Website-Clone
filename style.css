@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    /*
+        !Update the background image with random daily updating image
+    */
+    background: url('./bg-img.jpg') no-repeat center center/cover ;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+}
+main{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-section{
+
+    text-align: center;
+}
+.hero-section .time{
+    font-size: 10rem;
+}
+.hero-section .name{
+    font-size: 5rem;
+}
+
